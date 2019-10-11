@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width= device-width, initial-scale=1" />
+        <title>Javascript Practice</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="css/style.css"/>
+    </head>
+    <body>
+        <form action="" method="post">
+            <table>
+                <tr>
+                    <th>First Name: </th>
+                    <td>
+                        <input type="text" name="first_name" id="firstName" autocomplete="off">
+                        <span id="firstNameError"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Last Name: </th>
+                    <td>
+                        <input type="text" name="last_name" id="lastName">
+                        <span id="lastNameError"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Email Address: </th>
+                    <td>
+                        <input type="email" name="email_address" id="email">
+                        <span id="emailAddressError"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Password: </th>
+                    <td>
+                        <input type="password" name="password" id="password">
+                        <span id="passwordError"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Confirm Password: </th>
+                    <td>
+                        <input type="password" name="confirm_password" id="confirmPassword">
+                        <span id="confirmPasswordError"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <th>District: </th>
+                    <td>
+                        <select name="district_name" id="districtName">
+                            <option value=""></option>
+                            <option value="dhaka">Dhaka</option>
+                            <option value="barisal">Barisal</option>
+                            <option value="khulna">Khulna</option>
+                            <option value="rajshahi">Rajshahi</option>
+                            <option value="comilla">Comilla</option>
+                        </select>
+                        <span id="districtNameError"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <td><input type="submit" id="btn" value="SubmiT"></td>
+                </tr>
+            </table>
+        </form>
+
+
+        <h1 id="heading"></h1>
+
+
+
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/my-script.js"></script>
+<!--        <script src="js/script-1.js"></script>-->
+    </body>
+</html>
